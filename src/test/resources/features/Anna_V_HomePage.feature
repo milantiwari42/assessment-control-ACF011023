@@ -37,3 +37,7 @@
       Then I click on element with xpath "//div[@mat-dialog-actions]//span[contains(text(),'Delete')]"
       Then I wait for 2 sec
       Then element with xpath "//mat-panel-title[contains(text(),'0 Anna Quiz title')]" should not be present
+
+      Scenario: test
+        Given I open url "http://ask-internship.portnov.com/#/login"
+        Given AnnaV navigate url "http://ask-internship.portnov.com/#/login"
