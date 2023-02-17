@@ -1,4 +1,4 @@
-checkput#Author: Anna Verkhovskaya
+#Author: Anna Verkhovskaya
 #Exercise for ASK application
   
   @askapplication 
@@ -29,15 +29,12 @@ checkput#Author: Anna Verkhovskaya
       Then I type "Answer 2" into element with xpath "//textarea[@placeholder ='Option 2*']"
       Then I click on element with xpath "//mat-radio-button[@class='mat-radio-button mat-accent'][1]"
       Then I click on element with xpath "//span[contains(text(),'Save')]"
-      Then I wait for 1 sec
+      Then I wait for 5 sec
       Then element with xpath "//mat-panel-title[contains(text(),'0 Anna Quiz title')]" should contain text "0 Anna Quiz title"
       # delete the quiz
       When I click on element with xpath "//mat-panel-title[contains(text(),'0 Anna Quiz title')]"
       Then I click on element with xpath "//mat-panel-title[contains(text(),'0 Anna Quiz title')]/../../..//span[contains(text(),'Delete')]"
       Then I click on element with xpath "//div[@mat-dialog-actions]//span[contains(text(),'Delete')]"
-      Then I wait for 2 sec
+      Then I wait for 10 sec
       Then element with xpath "//mat-panel-title[contains(text(),'0 Anna Quiz title')]" should not be present
 
-      Scenario: test
-        Given I open url "http://ask-internship.portnov.com/#/login"
-        Given AnnaV navigate url "http://ask-internship.portnov.com/#/login"
