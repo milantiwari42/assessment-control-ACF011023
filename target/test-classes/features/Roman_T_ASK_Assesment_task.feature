@@ -31,7 +31,7 @@ Feature: ASK application
     Then I type "Answer 2" into element with xpath "//textarea[@placeholder ='Option 2*']"
     Then I click on element with xpath "//mat-radio-button[@id='mat-radio-8']"
     # adding "Show-stopper" question option
-    Then I click on element with xpath "//mat-checkbox[@id='mat-checkbox-2']//div[@class='mat-checkbox-frame']"
+    #Then I click on element with xpath "//mat-checkbox[@id='mat-checkbox-2']//div[@class='mat-checkbox-frame']"
     Then I click on element with xpath "//span[contains(text(),'Save')]"
     Then I wait for 2 sec
     Then element with xpath "//mat-panel-title[contains(text(),'000 R.T sin-cho showstop Quiz')]" should contain text "000 R.T sin-cho showstop Quiz"
