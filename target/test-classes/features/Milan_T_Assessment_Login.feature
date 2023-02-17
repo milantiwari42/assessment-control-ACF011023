@@ -1,5 +1,5 @@
 # Author : Milan Tiwari
-#Exercise for ASK application
+  #Exercise for ASK application
 @askapplication
 Feature: Ask application
 
@@ -23,17 +23,17 @@ Feature: Ask application
     Then I click on element using JavaScript with xpath "//mat-icon[contains(text(),'add_circle')]"
     Then element with xpath "//mat-panel-title[contains(text(),'Q1: new empty question')]" should be displayed
     Then I click on element using JavaScript with xpath "//div[contains(text(),'Single-Choice')] "
-    
+    Then I wait for 5 sec
     Then I type "Single choice question?" into element with xpath "//textarea[@formcontrolname='question'] "
-    
+    Then I wait for 5 sec
     Then I type "This is answer" into element with xpath "//textarea[@placeholder='Option 1*']"
-    
+    Then I wait for 5 sec
     Then I type "This is incorrect answer" into element with xpath "//textarea[@placeholder='Option 2*']"
-    
-    Then I click on element using JavaScript with xpath "//mat-radio-button[@class='mat-radio-button mat-accent']//div[@class='mat-radio-container'][1]"
+    Then I wait for 5 sec
+    Then I click on element using JavaScript with xpath "//mat-radio-button[@class='mat-radio-button mat-accent']"
     Then I wait for 5 sec
     Then I click on element using JavaScript with xpath "//span[contains(text(),'Save')]"
-    Then I wait for 5 sec
+    Then I wait for 10 sec
     Then element with xpath "//mat-panel-title[contains(text(),'0 Milan Quiz Title')]" should be displayed
     Then I click on element using JavaScript with xpath "//mat-panel-title[contains(text(),'0 Milan Quiz Title')]"
     Then I click on element using JavaScript with xpath "//mat-panel-title[contains(text(),'0 Milan Quiz Title')]/../../..//span[contains(text(),'Delete')]"
