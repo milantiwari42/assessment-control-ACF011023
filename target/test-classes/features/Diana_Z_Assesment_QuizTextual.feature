@@ -45,4 +45,5 @@
       Then I click on element with xpath "//span[contains(text(),'Create New Assignment')]"
       Then element with xpath "//h4[contains(text(),'Give Assignment')]" should be present 
       Then I click on element with xpath "//div[@class='mat-select-arrow-wrapper'][1]"
-      Then I click on element with xpath "//body/div[2]/div[3]/div[1]/div[1]/mat-option[16]/span[1]" 
+
+"
