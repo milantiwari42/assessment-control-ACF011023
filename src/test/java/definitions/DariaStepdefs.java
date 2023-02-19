@@ -3,7 +3,10 @@ package definitions;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
+
 import static support.TestContext.getDriver;
 import static org.assertj.core.api.Assertions.*;
 
@@ -98,7 +101,126 @@ public class DariaStepdefs {
                 getDriver().findElement(By.xpath(xpath)).getAttribute("type")
         ).isEqualTo("password");
     }
+
+
+    @Then("DS type {string} as {string}")
+    public void dsTypeAs(String sText, String sLocation) {
+        switch(sLocation) {
+            case "Email": getDriver().findElement(By.xpath(DariaXpathLibrary.sEmailLogInLocation)).sendKeys(sText);
+            break;
+            case "Password": getDriver().findElement(By.xpath(DariaXpathLibrary.sPasswordLogInLocation)).sendKeys(sText);
+            break;
+            case "Title": getDriver().findElement(By.xpath(DariaXpathLibrary.sQuizTitleLocation)).sendKeys(sText);
+                break;
+            case "Text Textual Question": getDriver().findElement(By.xpath(DariaXpathLibrary.sTextTextualQuestion)).sendKeys(sText);
+            break;
+            case "Option 1": getDriver().findElement(By.xpath(DariaXpathLibrary.sSingleChoiceOption1Location)).sendKeys(sText);
+                break;
+            case "Option 2": getDriver().findElement(By.xpath(DariaXpathLibrary.sSingleChoiceOption2Location)).sendKeys(sText);
+                break;
+
+        }
+    }
+
+    @Then("DS go to {string}")
+    public void dsGoTo(String sString) {
+        switch (sString) {
+            case "Sign In":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sSignInLocation)).click();
+                break;
+            case "Settings":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sSettingsLocation)).click();
+                break;
+            case "Quizzes":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sQuizzesLocation)).click();
+                break;
+            case "Create New Quiz":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sCreateNewQuizLocation)).click();
+                break;
+            case "Add Question":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sAddQuestionLocation)).click();
+                break;
+            case "Textual Question":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sTextualQuestionLocation)).click();
+                break;
+            case "Single-Choice Question":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sSingleChoiceQuestionLocation)).click();
+                break;
+            case "Save Quiz":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sSaveQuizLocation)).click();
+                break;
+            case "Edit Quiz":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sEditQuizLocation)).click();
+                break;
+            case "Updated Quiz": getDriver().findElement(By.xpath(DariaXpathLibrary.sUpdatedQuizLocation)).click();
+                break;
+            case "Updated Quiz 1": getDriver().findElement(By.xpath(DariaXpathLibrary.sUpdatedQuiz1Location)).click();
+                break;
+            case "Delete Quiz":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sDeleteQuiz1Location)).click();
+                break;
+            case "Confirm Delete Quiz":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sConfirmDeleteUpdatedQuizLocation)).click();
+                break;
+            case "Show-Stopper":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sShowStopperLocation)).click();
+            case "How was your day?":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sHowWasYourDayQuestionLocation)).click();
+                break;
+            case "Preview":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sPreviewLocation)).click();
+                break;
+            case "Close Preview":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sClosePreviewLocation)).click();
+                break;
+            case "Delete Updated Quiz":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sDeleteUpdatedQuizLocation)).click();
+                break;
+            case "Confirm Delete Updated Quiz":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sConfirmDeleteUpdatedQuizLocation)).click();
+                break;
+
+            case "Right Answer":
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sRightAnswerSingleChoiceLocation)).click();
+                break;
+        }
+    }
+
+
+
+    @Then("DS see created quiz")
+    public void dsSeeCreatedQuiz() {
+        assertThat(
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sUpdatedQuizLocation)).isDisplayed()
+        ).isTrue();
+    }
+
+    @Then("DS see updated quiz")
+    public void dsSeeUpdatedQuiz() {
+        assertThat(
+                getDriver().findElement(By.xpath(DariaXpathLibrary.sUpdatedQuiz1Location)).isDisplayed()
+        ).isTrue();
+    }
+
+
+
+    @Then("DS don't see created quiz")
+    public void dsDonTSeeCreatedQuiz() {
+        assertThat(
+                getDriver().findElements(By.xpath(DariaXpathLibrary.sUpdatedQuizLocation))).hasSize(0);
+    }
+
+    @Then("DS found Show-Stopper")
+    public void dsFoundShowStopper() {
+        new Actions(getDriver()).moveToElement(getDriver().findElement(By.xpath(DariaXpathLibrary.sShowStopperLocation))).perform();
+    }
+
 }
+
+
+
+
+
 
 
 
