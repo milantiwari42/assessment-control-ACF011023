@@ -8,7 +8,7 @@ Feature: ASK application
    # Login to ASK as Teacher
   Background:
     Given I open url "http://ask-internship.portnov.com/#/login"
-    Then I type "5813@marimas.tech" into element with xpath "//input[@placeholder='Email *']"
+    Then I type "5813@marimas.tech" into element with xpath "/"
     Then I type "12345" into element with xpath "//input[@formcontrolname='password']"
     Then I click on element with xpath "//button[@type = 'submit']"
     Then I wait for 1 sec
