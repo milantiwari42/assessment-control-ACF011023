@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6e743a4-cec0-424b-b945-d215beef0502" name="Changes" comment="&quot;MA : #https://jira.portnov.com/browse/ACF-332&quot;">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Mohamed_A_MultipleChoiceQuestionPoints.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/definitions/AnnaVStepDefs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/definitions/Nk_GroupCodeStepDefs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/definitions/Nk_XPathLibrary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/definitions/XPathLibrary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/Mohamed_A_MultipleChoiceQuestionPoints.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/Natalia_K_GroupCode.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/support/DB_ConnectionHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/support/Helpers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Mohamed_A_ChangingUserRole.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Mohamed_A_ChangingUserRole.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Roman_T_ASK_Assesment_task.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Roman_T_ASK_Assesment_task.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Anna_V_HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Anna_V_HomePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Roman_T_ASK_Assesment_task.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Roman_T_ASK_Assesment_task.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/webdriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/webdriver.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -49,15 +41,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/mohamed/IdeaProjects/assessment-control-ACF011023",
-    "settings.editor.selected.configurable": "preferences.customizations"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mohamed/IdeaProjects/assessment-control-ACF011023&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: ">
+}</component>
+  <component name="RunManager" selected="Cucumber Java.Feature: Mohamed_A_ChangingUserRole">
     <configuration name="Feature: Mohamed_A_ChangingUserRole" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Mohamed_A_ChangingUserRole.feature" />
@@ -158,9 +150,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: Mohamed_A_ChangingUserRole" />
         <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="Cucumber Java.Feature: Mohamed_A_MultipleChoiceQuestionPoints" />
-        <item itemvalue="Cucumber Java.Feature: Mohamed_A_ChangingUserRole" />
         <item itemvalue="Cucumber Java.Scenario: Changing Teacher's Account By A Student" />
         <item itemvalue="Cucumber Java.Scenario: Changing Teacher's Account By A Teacher" />
       </list>
