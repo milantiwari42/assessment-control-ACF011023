@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6e743a4-cec0-424b-b945-d215beef0502" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Anna_V_HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Anna_V_HomePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Anna_V_HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Anna_V_HomePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Milan_T_Assessment_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Milan_T_Assessment_Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Roman_T_ASK_Assesment_task.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Roman_T_ASK_Assesment_task.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webdriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/webdriver.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Scenario: Create a quiz" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
