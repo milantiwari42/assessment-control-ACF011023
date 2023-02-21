@@ -1,0 +1,9 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_2_21_23,_10_31_AM_[Changes]" date="1677004290028" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_21_23,_10_31_AM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 2/21/23, 10:31 AM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/definitions/DariaStepdefs.class" />
+    <option name="AFTER_PATH" value="target/test-classes/definitions/DariaStepdefs.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_21_23,_10_31_AM_[Changes]/DariaStepdefs.class" />
+  </binary>
+</changelist>

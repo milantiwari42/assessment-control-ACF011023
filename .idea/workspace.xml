@@ -38,6 +38,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LsqufwvE60xvroW1T2FpE1uMmj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -139,5 +142,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;MA : #https://jira.portnov.com/browse/ACF-332&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="&quot;MA : #https://jira.portnov.com/browse/ACF-332&quot;" />
+
   </component>
 </project>
