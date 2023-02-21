@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6e743a4-cec0-424b-b945-d215beef0502" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/support/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/support/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Anna_V_HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Anna_V_HomePage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Daria_S_StudentSettingsPassword.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Daria_S_StudentSettingsPassword.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Diana_Z_Assesment_QuizTextual.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Diana_Z_Assesment_QuizTextual.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/drivers/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/drivers/geckodriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/Anna_V_HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Anna_V_HomePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Milan_T_Assessment_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Milan_T_Assessment_Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Roman_T_ASK_Assesment_task.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Roman_T_ASK_Assesment_task.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Daria_S_StudentSettingsPassword.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Daria_S_StudentSettingsPassword.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Diana_Z_Assesment_QuizTextual.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Diana_Z_Assesment_QuizTextual.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/support/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/support/TestRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/webdriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/webdriver.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +30,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LsqufwvE60xvroW1T2FpE1uMmj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -82,5 +89,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/assessment_control_ACF011023$Feature__Anna_V_HomePage.ic" NAME="Feature: Anna_V_HomePage Coverage Results" MODIFIED="1676944293684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumber.api.cli.*</FILTER>
+    </SUITE>
   </component>
 </project>

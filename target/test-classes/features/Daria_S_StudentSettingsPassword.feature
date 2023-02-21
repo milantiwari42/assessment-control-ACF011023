@@ -11,7 +11,7 @@ Feature: Test set "Student: Settings - Password"
     Then I click on element with xpath "//span[text()='Change Your Password']"
     Then element with xpath "//mat-dialog-container[@role='dialog']" should be present
      And element with xpath "//span[text()='Change']/.." should be disabled
-
+  @regressionTest @smokeTest
   Scenario: Change student password Positive with Daria Step definitions
     When I click on element with xpath "//span[text()='Cancel']/.."
     Then DS click on log out button
