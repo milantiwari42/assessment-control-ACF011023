@@ -6,7 +6,7 @@
 Feature: changing User's role "Teacher"
 
   
-  Scenario: Changing Student's Account By A Teacher
+  Scenario: Changing Student's Role By A Teacher
     Given I open url "http://ask-internship.portnov.com/#/login"
     Then I should see page title contains "Assessment Control @ Portnov"
     Then I type "tbarder@friendsack.com" into element with xpath "//input[@placeholder='Email *']"
