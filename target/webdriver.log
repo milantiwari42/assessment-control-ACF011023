@@ -79,3 +79,31 @@ INFO 13:51:31:095 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using 
 INFO 13:51:31:110 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
 INFO 13:54:51:414 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)
 INFO 13:54:51:434 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
+INFO 15:50:50:854 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)
+INFO 15:50:50:875 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/milantiwari/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
+INFO 15:50:57:141 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)
+INFO 15:50:57:151 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/milantiwari/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
+INFO 15:51:02:533 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)
+INFO 15:51:02:542 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/milantiwari/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
+INFO 15:51:07:718 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)
+INFO 15:51:07:723 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/milantiwari/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
+INFO 15:51:12:661 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)
+INFO 15:51:12:668 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/milantiwari/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
+INFO 15:51:17:975 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)
+INFO 15:51:17:980 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/milantiwari/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
+INFO 15:51:22:995 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)
+INFO 15:51:22:999 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/milantiwari/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
+INFO 15:51:26:206 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)
+INFO 15:51:26:209 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/milantiwari/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
+INFO 15:51:29:204 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)
+INFO 15:51:29:205 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/milantiwari/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
+INFO 15:51:32:206 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)
+INFO 15:51:32:209 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/milantiwari/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
+INFO 15:51:35:405 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)
+INFO 15:51:35:406 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/milantiwari/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
+INFO 15:51:38:358 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)
+INFO 15:51:38:360 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/milantiwari/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
+INFO 15:51:42:642 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)
+INFO 15:51:42:645 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/milantiwari/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
+INFO 15:51:46:208 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)
+INFO 15:51:46:210 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/milantiwari/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
