@@ -16,7 +16,7 @@
       Then I should see page title as "Assessment Control @ Portnov"
       Then element with xpath "//footer[contains(text(),'Portnov')]" should contain text "Assessment Control @ Portnov"
       Then element with xpath "//footer[contains(text(),'Portnov')]" should be displayed
-
+    @regressionTest
       Scenario: Create a Quiz with textual Question
       Then element with xpath "//h5[contains(text(),'Quizzes')]" should be present
       Then I click on element with xpath "//h5[contains(text(),'Quizzes')]"
@@ -46,4 +46,3 @@
       Then element with xpath "//h4[contains(text(),'Give Assignment')]" should be present 
       Then I click on element with xpath "//div[@class='mat-select-arrow-wrapper'][1]"
 
-"

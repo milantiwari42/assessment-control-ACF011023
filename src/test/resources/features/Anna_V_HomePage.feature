@@ -15,7 +15,7 @@
     #  Then element with xpath "//footer[contains(text(),'Portnov')]" should contain text "Assessment Control @ Portnov"
     #  Then element with xpath "//footer[contains(text(),'Portnov')]" should be displayed
 
-    @askapplication1
+    @askapplication1  @regressionTest
     Scenario: Create a quiz
       When I click on element with xpath "//h5[contains(text(),'Quizzes')]"
       Then I wait for 1 sec
@@ -69,7 +69,7 @@
       Then I wait for 5 sec
       Then element with xpath "//mat-panel-title[contains(text(),'0 Anna Quiz title')]" should not be present
 
-    @askapplication3
+    @askapplication3 @regressionTest
     Scenario: User registration
       Given AV navigate to "ASK registration"
       Then AV input "John" as "FirstName"
